@@ -1,8 +1,7 @@
 *,
 *::before,
 *::after{
-  box-sizing: border-box;
-   
+  box-sizing: border-box;  
 }
 
 *{
@@ -43,9 +42,14 @@
   --fs-xl: 1.5rem;
   --fs-2xl: 2.5rem;
 
-  /* Desktop */
+  /* Container */
 
-  --h1-d: 800 
+  --px-lg: 1.5rem;
+  
+  --py-base: 1rem;
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
+
 }
 
 html{
@@ -93,5 +97,11 @@ ul[role="list"]{
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
+
+    --py-base: 1.5rem;
+    --py-lg: 2.5rem;
+    --py-xl: 5rem;
+
+    --px-lg: 2rem;
   }
 }
