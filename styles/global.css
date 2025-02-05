@@ -65,6 +65,8 @@ html{
 
 body{
   background-color: var(--backgroud-color);
+  overflow-x: hidden;
+  
 }
 
 h1, h2, h3{
